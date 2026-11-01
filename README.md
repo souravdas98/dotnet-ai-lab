@@ -18,7 +18,7 @@
 
 ---
 
-## What is dotnet-ai-lab?
+## What is dotnet-ai-lab ?
 
 **dotnet-ai-lab** is an open-source learning and engineering repository designed to bring together practical knowledge, real-world implementations, architectural patterns, and hands-on examples from across the .NET ecosystem.
 
