@@ -46,17 +46,17 @@ jobs:
         run: dotnet --info
 
       - name: Restore
-        run: dotnet restore DotNetAiLab.sln
+        run: dotnet restore DotNetAiLab.slnx
 
       - name: Verify formatting
-        run: dotnet format DotNetAiLab.sln --verify-no-changes --no-restore
+        run: dotnet format DotNetAiLab.slnx --verify-no-changes --no-restore
 
       - name: Build
-        run: dotnet build DotNetAiLab.sln -c Release --no-restore
+        run: dotnet build DotNetAiLab.slnx -c Release --no-restore
 
       - name: Test with coverage
         run: >
-          dotnet test DotNetAiLab.sln
+          dotnet test DotNetAiLab.slnx
           -c Release
           --no-build
           --no-restore
