@@ -1,0 +1,10 @@
+# Default repository ownership
+* @YOUR_GITHUB_USERNAME
+
+# CI/CD and security
+/.github/ @YOUR_GITHUB_USERNAME
+
+# Architecture and shared build configuration
+/src/BuildingBlocks/ @YOUR_GITHUB_USERNAME
+/Directory.* @YOUR_GITHUB_USERNAME
+/global.json @YOUR_GITHUB_USERNAME

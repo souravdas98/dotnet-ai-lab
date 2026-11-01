@@ -1,0 +1,6 @@
+@DotNetAiLab.WebApi_HostAddress = http://localhost:5227
+
+GET {{DotNetAiLab.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

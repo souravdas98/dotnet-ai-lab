@@ -1,0 +1,39 @@
+
+name: Feature Request
+description: Suggest a new .NET learning topic or improvement
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Describe your proposed solution
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - C# Fundamentals
+        - ASP.NET Core
+        - Architecture
+        - Design Patterns
+        - Databases
+        - Microservices
+        - Distributed Systems
+        - Cloud and DevOps
+        - AI and MCP
+        - Security
+        - Testing
+        - Performance
+    validations:
+      required: true

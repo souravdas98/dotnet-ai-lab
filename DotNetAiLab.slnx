@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/DotNetAiLab.Application/DotNetAiLab.Application.csproj" />
+    <Project Path="src/BuildingBlocks/DotNetAiLab.Domain/DotNetAiLab.Domain.csproj" />
+    <Project Path="src/BuildingBlocks/DotNetAiLab.Infrastructure/DotNetAiLab.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Hosts/">
+    <Project Path="src/Hosts/DotNetAiLab.WebApi/DotNetAiLab.WebApi.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DotNetAiLab.ArchitectureTests/DotNetAiLab.ArchitectureTests.csproj" />
+    <Project Path="tests/DotNetAiLab.IntegrationTests/DotNetAiLab.IntegrationTests.csproj" />
+    <Project Path="tests/DotNetAiLab.UnitTests/DotNetAiLab.UnitTests.csproj" />
+  </Folder>
+</Solution>
